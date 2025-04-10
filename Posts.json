@@ -1,0 +1,62 @@
+[
+  {
+    "liga": "La Liga",
+    "jogos": [
+      {
+        "titulo": "Real Madrid VS Real Bétis",
+        "descricao": "Real Madrid vence e +1 gol",
+        "detalhes": "O Real Madrid está invicto em casa e deve vencer o Bétis com um gol a mais."
+      },
+      {
+        "titulo": "Barcelona VS Osasuna",
+        "descricao": "Barcelona vence",
+        "detalhes": "O Barcelona vem com força total e deve vencer facilmente."
+      },
+      {
+        "titulo": "Atlético de Madrid VS Sevilla",
+        "descricao": "Atlético vence",
+        "detalhes": "Atlético é favorito em casa, e o Sevilla não tem mostrado bom desempenho."
+      },
+      {
+        "titulo": "Valência VS Real Sociedad",
+        "descricao": "Empate",
+        "detalhes": "Os dois times estão em um momento equilibrado, e a previsão é de um empate."
+      },
+      {
+        "titulo": "Villarreal VS Getafe",
+        "descricao": "Villarreal vence",
+        "detalhes": "Villarreal é mais forte no ataque e deve garantir a vitória em casa."
+      }
+    ]
+  },
+  {
+    "liga": "Ligue 1",
+    "jogos": [
+      {
+        "titulo": "PSG VS Lyon",
+        "descricao": "PSG vence e +1 gol",
+        "detalhes": "PSG, com seus astros, é favorito para vencer e marcar mais de 1 gol."
+      },
+      {
+        "titulo": "Monaco VS Nice",
+        "descricao": "Ambos marcam",
+        "detalhes": "Ambos os times têm boas opções ofensivas e devem marcar gols."
+      },
+      {
+        "titulo": "Marseille VS Lille",
+        "descricao": "Marseille vence",
+        "detalhes": "Marseille em boa fase e deve garantir os 3 pontos."
+      },
+      {
+        "titulo": "Lyon VS Bordeaux",
+        "descricao": "Lyon vence",
+        "detalhes": "Lyon é mais forte e deve vencer sem dificuldades."
+      },
+      {
+        "titulo": "Saint-Étienne VS Montpellier",
+        "descricao": "Empate",
+        "detalhes": "Os dois times estão equilibrados, então um empate é esperado."
+      }
+    ]
+  }
+]
