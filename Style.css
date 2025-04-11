@@ -36,7 +36,8 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  padding: 10px;
+  font-size: 30pt;
   font-weight: bold;
   color: white;
 }
@@ -311,13 +312,6 @@ header {
   padding-bottom: 20px;
 }
 
-.header-img {
-  width: 100%;
-  height: auto;
-  max-height: 300px;
-  object-fit: cover;
-  display: block;
-}
 
 .header-content {
   padding: 20px 10px 0;
@@ -344,7 +338,7 @@ main {
   max-width: 600px;
   margin: auto;
   background-color: #e9ecef;
-  padding: 20px;
+  padding: 25px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
