@@ -20,3 +20,4 @@ fetch('posts.json')
       container.appendChild(card);
     });
   });
+

@@ -1,61 +1,77 @@
 [
   {
-    "liga": "La Liga sabado 12/04/2025",
+    "liga": "Champions League 15/04/2025",
     "jogos": [
       {
-        "titulo": "Real Madrid VS Real Bétis",
-        "descricao": "Real Madrid vence e +1 gol",
-        "detalhes": "O Real Madrid está invicto em casa e deve vencer o Bétis com um gol a mais."
+        "titulo": "Borrussia Dortmund VS Barcelona",
+        "descricao": "Palpite ",
+        "detalhes": "Barcelona vence 58%✓. Total de gols partida: +1gols✓ Total de escanteios da partida: +9.5✓ ::75% chance de acontecer."
       },
       {
-        "titulo": "Barcelona VS Osasuna",
-        "descricao": "Barcelona vence",
-        "detalhes": "O Barcelona vem com força total e deve vencer facilmente."
-      },
-      {
-        "titulo": "Atlético de Madrid VS Sevilla",
-        "descricao": "Atlético vence",
-        "detalhes": "Atlético é favorito em casa, e o Sevilla não tem mostrado bom desempenho."
-      },
-      {
-        "titulo": "Valência VS Real Sociedad",
-        "descricao": "Empate",
-        "detalhes": "Os dois times estão em um momento equilibrado, e a previsão é de um empate."
-      },
-      {
-        "titulo": "Villarreal VS Getafe",
-        "descricao": "Villarreal vence",
-        "detalhes": "Villarreal é mais forte no ataque e deve garantir a vitória em casa."
+        "titulo": "Aston Villa VS PSG",
+        "descricao": "Palpite",
+        "detalhes": "O Aston Villa precisará de muito esforço para furar as redes do PSG. É previsto que o PSG ganha ou empata 78%✓."
+      
       }
     ]
   },
   {
-    "liga": "Ligue 1",
+    "liga": " 14/04/2025",
     "jogos": [
       {
-        "titulo": "PSG VS Lyon",
-        "descricao": "PSG vence e +1 gol",
-        "detalhes": "PSG, com seus astros, é favorito para vencer e marcar mais de 1 gol."
+        "titulo": " Bournemouth VS Fulham",
+        "descricao": "palpite",
+        "detalhes": "Ambas marcam 70%✓, Total de gols da partida: +1.5 e qualquer ganhar."
       },
       {
-        "titulo": "Monaco VS Nice",
-        "descricao": "Ambos marcam",
-        "detalhes": "Ambos os times têm boas opções ofensivas e devem marcar gols."
+        "titulo": "Atlético Madrid VS Real Valladolid",
+        "descricao": "Palpite",
+        "detalhes": "Atlético Madrid vence 80%✓. Total de gols da partida: +1."
       },
       {
-        "titulo": "Marseille VS Lille",
-        "descricao": "Marseille vence",
-        "detalhes": "Marseille em boa fase e deve garantir os 3 pontos."
+        "titulo": "Napoli VS Empoli",
+        "descricao": "Palpite",
+        "detalhes": "Napoli vence 90%✓. Total de gols da partida: +2. Total de escanteios da partida: +8.5"
       },
       {
-        "titulo": "Lyon VS Bordeaux",
-        "descricao": "Lyon vence",
-        "detalhes": "Lyon é mais forte e deve vencer sem dificuldades."
+        "titulo": "Constantine VS Oran",
+        "descricao": "Palpite",
+        "detalhes": "Campeonato da Argelia:  Constantine vence ou empata✓. Total de gols da partida: +2.5."
       },
       {
-        "titulo": "Saint-Étienne VS Montpellier",
-        "descricao": "Empate",
-        "detalhes": "Os dois times estão equilibrados, então um empate é esperado."
+        "titulo": "Arsenal de Sarandí VS Patronato",
+        "descricao": "Palpite",
+        "detalhes": "Argentina:  Prevemos ambas marcam. Pois será uma partida muito equilibrada até aos 90 minutos."
+      }
+    ]
+  },
+    {
+    "liga": "14/04/2025",
+    "jogos": [
+      {
+        "titulo": "Aldosivi VS Racing Club",
+        "descricao": "Palpite",
+        "detalhes": "Argentina:  qualquer uma ganhar✓. Aldosivi achará difícil bater o Racing Club. Por isso achamos que um sairá victorioso."
+      },
+      {
+        "titulo": "Central Córdoba VS Huracán",
+        "descricao": "Palpite",
+        "detalhes": "Argentina:  Ambas marcam✓. Um empate a uma bola é esperado deste encotro."
+      },
+      {
+        "titulo": "Slavia Sofia VS Botev Vratsa",
+        "descricao": "Palpite",
+        "detalhes": "Bulgária: Ambas marcam✓. Tota de gols da partida: +1.5"
+      },
+      {
+        "titulo": "Palestino VS Unión La Calera",
+        "descricao": "Palpite",
+        "detalhes": "Chile:  Palestino vence ou empata✓. Unión La Calera terá que trabalhar realmente para chegar ao gol mas é bem provável que não o faça. Prevemos a victoria ou empate do Palestino"
+      },
+      {
+        "titulo": "Unión Espanola VS Nublense",
+        "descricao": "Palpite",
+        "detalhes": "Chile: Ambas marcam✓. Total de gols da partida: +1.5."
       }
     ]
   }

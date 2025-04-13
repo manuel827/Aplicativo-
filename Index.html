@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resultados e Prognósticos</title>
   <link rel="stylesheet" href="style.css">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2278128260245968"
-     crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  
 </head>
 <body>
   <header class="fixo">
@@ -14,31 +16,41 @@
     
     </div>
     <h1></h1>
-    <h3 class="h33">Palpites Elaborados para você</h3>
+    <h3 class="h33">Palpites Elaborados Por Inteligência A.</h3>
     
 <nav class="menu-links">
-      <a href="index.html">Leve</a>
-      <a href="moderada.html">Moderada</a>
-      <a href="arriscada.html">Arriscada</a>
-    </nav>
+      <a href="index.html"><i class="fa-solid fa-house"></i> Início</a>
+
+      
+      <a href="Terca.html">Terça</a>
+      <a href="Quarta.html">Quarta</a>
+      <a href="Quinta.html">Quinta</a>
+   
+
+</nav>
     
   </header>
 
+
   <main id="conteudo">
     <div class="caixa">
-      <h2>Palpites do Dia</h2>
-      <p>Confira nossos palpites seguros e análises detalhadas.</p>
+      <h2>Palpites do Dia !!!</h2>
+      <p class="h2"><strong>Confira nossos palpites seguros e análises detalhadas. Clica nas caixas para ver + detalhes.</strong></p>
     </div>
     <div id="liga-container"></div>
+      
   </main>
 
   <footer>
     <p>&copy; 2025 - Palpites Esportivos!</p>
     <div class="links-footer">
-      <a href="#sobre-nos">Sobre Nós</a> | 
-      <a href="#termos-de-uso">Termos de Uso</a> | 
-      <a href="#politica-de-privacidade">Política de Privacidade</a>
+      <a href="#sobre-nos"><i class="fa-solid fa-user"></i>&nbsp;Sobre Nós</a> | 
+      
+      <a href="#termos-de-uso"><i class="fa-solid fa-file -contract"></i>&nbsp;Termos de uso</a> |
+      
+      <a href="#politica-de-privacidade"><i class="fa-solid fa-shield-halved"></i>&nbsp;Política de Privacidade</a>
     </div>
+
   </footer>
 
   <!-- Seções de conteúdo -->
@@ -57,51 +69,56 @@
     <p>Proteger sua privacidade é importante para nós. Coletamos apenas as informações necessárias para melhorar sua experiência no site, como dados de navegação e preferências. Não compartilhamos suas informações pessoais com terceiros sem o seu consentimento explícito. Utilizamos cookies para fornecer conteúdo personalizado e para análises de uso do site. Ao acessar nosso site, você concorda com o uso de cookies e com a coleta das informações descritas nesta política. Se tiver dúvidas, entre em contato conosco.</p>
   </div>
 
-  <script>
-    fetch('posts.json')
-      .then(response => response.json())
-      .then(data => {
-        const ligaContainer = document.getElementById('liga-container');
-        
-        data.forEach(liga => {
-          const ligaDiv = document.createElement('div');
-          ligaDiv.className = 'liga';
-          
-          const ligaTitulo = document.createElement('h2');
-          ligaTitulo.innerText = liga.liga;
-          ligaDiv.appendChild(ligaTitulo);
-          
-          const jogosDiv = document.createElement('div');
-          jogosDiv.className = 'jogos';
-          
-          liga.jogos.forEach(jogo => {
-            const jogoDiv = document.createElement('div');
-            jogoDiv.className = 'jogo';
+ <script>
+  const limitePorLiga = 5; // << Altere este número conforme quiser (ex: 5, 4, 2...)
 
-            const jogoTitulo = document.createElement('h3');
-            jogoTitulo.innerText = jogo.titulo;
-            jogoDiv.appendChild(jogoTitulo);
+  fetch('posts.json')
+    .then(response => response.json())
+    .then(data => {
+      const ligaContainer = document.getElementById('liga-container');
 
-            const jogoDescricao = document.createElement('p');
-            jogoDescricao.innerText = jogo.descricao;
-            jogoDiv.appendChild(jogoDescricao);
+      data.forEach(liga => {
+        const ligaDiv = document.createElement('div');
+        ligaDiv.className = 'liga';
 
-            const jogoDetalhes = document.createElement('div');
-            jogoDetalhes.className = 'detalhes';
-            jogoDetalhes.innerText = jogo.detalhes;
-            jogoDiv.appendChild(jogoDetalhes);
+        const ligaTitulo = document.createElement('h2');
+        ligaTitulo.innerText = liga.liga;
+        ligaDiv.appendChild(ligaTitulo);
 
-            jogoDiv.addEventListener('click', () => {
-              jogoDetalhes.classList.toggle('open');
-            });
+        const jogosDiv = document.createElement('div');
+        jogosDiv.className = 'jogos';
 
-            jogosDiv.appendChild(jogoDiv);
+        const jogosLimitados = liga.jogos.slice(0, limitePorLiga); // Limita os jogos
+
+        jogosLimitados.forEach(jogo => {
+          const jogoDiv = document.createElement('div');
+          jogoDiv.className = 'jogo';
+
+          const jogoTitulo = document.createElement('h3');
+          jogoTitulo.innerText = jogo.titulo;
+          jogoDiv.appendChild(jogoTitulo);
+
+          const jogoDescricao = document.createElement('p');
+          jogoDescricao.innerText = jogo.descricao;
+          jogoDiv.appendChild(jogoDescricao);
+
+          const jogoDetalhes = document.createElement('div');
+          jogoDetalhes.className = 'detalhes';
+          jogoDetalhes.innerText = jogo.detalhes;
+          jogoDiv.appendChild(jogoDetalhes);
+
+          jogoDiv.addEventListener('click', () => {
+            jogoDetalhes.classList.toggle('open');
           });
-          
-          ligaDiv.appendChild(jogosDiv);
-          ligaContainer.appendChild(ligaDiv);
+
+          jogosDiv.appendChild(jogoDiv);
         });
+
+        ligaDiv.appendChild(jogosDiv);
+        ligaContainer.appendChild(ligaDiv);
       });
-  </script>
+    });
+</script>
+
 </body>
 </html>
