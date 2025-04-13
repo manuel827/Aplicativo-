@@ -266,22 +266,20 @@ footer p {
 
 
 .menu-links {
-  margin-top: -8px;
   text-align: center;
-  padding: 10px 0;
-  gap: 8px;
+  padding: 5px;
+  gap: 1px;
   background-color: #111;
 }
 
 .menu-links a {
   display: inline-block;
   margin: 0 10px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   background-color: #1e90ff;
   color: white;
   text-decoration: none;
   border-radius: 8px;
-  font-weight: bold;
   transition: background-color 0.3s;
 }
 
