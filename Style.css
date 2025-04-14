@@ -332,7 +332,7 @@ header {
 .caixa {
   max-width: 400px;
   margin: auto;
-  background-image: url('./img/football-488714_1280.jpg');
+  background-color: white;
   color: white;
   padding: 25px;
   border-radius: 12px;
@@ -342,7 +342,7 @@ header {
   font-weight: bold;
 }
 .h2{
-  color: white;
+  color: black;
   font-size: 12pt;
 }
 /* Caixa de conteúdo termos */
@@ -350,7 +350,7 @@ header {
   max-width: 400px;
   margin: auto;
   background-color: #ffffff;
-  background-image: url('./img/football-488714_1280.jpg');
+  background-color: white;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.9);
@@ -408,7 +408,7 @@ header {
   font-family: Arial;
   font-size: 15pt;
   font-weight: bold;
-  color: yellow;
+  color: green;
 }
 .Pal3{
   align-items: center;
