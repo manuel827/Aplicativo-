@@ -6,6 +6,8 @@
 }
 
 body {
+  justify-content: center;
+  align-items: center;
   background: transparent;
   color: #333;
   padding-top: 110px; /* Espaço para o header fixo */
@@ -347,6 +349,7 @@ header {
 }
 /* Caixa de conteúdo termos */
 .caixa2{
+  text-align: none;
   max-width: 400px;
   margin: auto;
   background-color: #ffffff;
@@ -359,6 +362,7 @@ header {
   opacity: 0.8;
 }
 .caixa3{
+  text-align: none;
   flex-direction: columns;
   max-width: 600px;
   margin: auto;
@@ -370,6 +374,7 @@ header {
 }
 /* Caixa de conteúdo termos arriscada*/
 .caixa4{
+  text-align: none;
   max-width: 600px;
   margin: auto;
   background-color: #ffffff;
@@ -381,6 +386,7 @@ header {
   border: 1px solid black;
 }
 .caixa5{
+  text-align: none;
   max-width: 600px;
   margin: auto;
   background-color: #ffffff;
