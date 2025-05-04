@@ -1,72 +1,132 @@
 [
   {
-    "liga": "Champions League 2025",
+    "liga": "Segunga Feira  05/05/2025",
     "jogos": [
       {
-        "titulo": "Arsenal VS PSG",
+        "titulo": "Crystal Palace VS Nottingham",
         "descricao": "Palpite ",
-        "detalhes": "Qualquer uma ganha 68%✓. Total de gols partida: +1gols✓ Total de escanteios da partida: +9.5✓ ::75% chance de acontecer."
+        "detalhes": "Crystal Palace para victória%✓. Será uma partida incrível"
       },
       {
-        "titulo": "Inter Milan VS Barcelona",
+        "titulo": "Girona Fc VS Mallorca",
         "descricao": "Palpite",
-        "detalhes": "Total de gols da partida: +2gols%✓ . Qualquer uma ganha 78%✓."
+        "detalhes": "Ambas marcam%✓ . Qualquer uma ganha%✓."
       
       }
     ]
   },
   {
-    "liga": "Para hoje 29/04/2025",
+    "liga": "Segunda Feira 05/05/2025",
     "jogos": [
       {
-        "titulo": " Newell's Old Boys VS Huracán",
+        "titulo": "Genoa Fc VS Ac Milan",
         "descricao": "palpite",
-        "detalhes": "Total de gols da partida: -3gols%✓. Qualquer ganhar%✓.  Argentina: Torneo Apertura."
+        "detalhes": "Ac Milan para victória%✓. +7.5 cantos%✓.  Italia: Serie A."
       },
       {
-        "titulo": "Platense VS Talleres",
+        "titulo": "Nueva Chicago VS Estudiantes Buenos",
         "descricao": "Palpite",
-        "detalhes": "Total de gols da partida: -3gols%✓. Platense ou empate%✓ . Argentina: Torneo Apertura."
+        "detalhes": "Total de gols da partida: +2gols%✓. Qualquer uma ganha%✓ . Argentina: Primeira B."
       },
       {
-        "titulo": "Sturm Graz II VS First Vienna Fc 1894",
+        "titulo": "Agropecuario VS Central Norte",
         "descricao": "Palpite",
-        "detalhes": "Ambas marcam%✓. Total de gols da partida: +2gols. Total de escanteios da partida: +7.5%✓.  Austria.2.Liga"
+        "detalhes": "Ambas marcam%✓. Qualquer uma ganha%✓ Argentina: Primeira B"
       },
       {
-        "titulo": "ENPPI VS Ghazl El-Mehalla",
+        "titulo": "River Plate VS Vélez Sarsfield",
         "descricao": "Palpite",
-        "detalhes": "Ambas marcam%✓.  ENNPI marca 1gols%✓. Egipto: Liga Premiada." 
+        "detalhes": "Ambas marcam%✓.  Total de gols da partida: +2gols%✓. Argentina: Primeira B" 
       },
       {
-        "titulo": "Internacional VS Maracanã",
+        "titulo": "Red Bull Bragantino VS Mirassol",
         "descricao": "Palpite",
-        "detalhes": "Total de gols da partida: +2gols%✓.Qualquer ou Internacional.   Pois será uma partida com chances de gols até aos 90 minutos.  Brasil: Copa do Brasil."
+        "detalhes": "Total de gols da partida: +2gols%✓. Ambas marcam%✓. Qualquer uma ganha%✓ .  Brasil: Seria A."
       }
     ]
   },
     {
-    "liga": " Para hoje 29/04/2025",
+    "liga": "Segunda Feira 05/05/2025",
     "jogos": [
       {
-        "titulo": "Retrô VS Fortaleza",
+        "titulo": "Juventude VS Atlético Mineiro",
         "descricao": "Palpite",
-        "detalhes": "Total de gols da partida: -3gols%✓. Fortaleza ou empate. Retrô achará difícil bater o Fortaleza. Por isso achamos que Fortaleza sairá victorioso ou empatará. "
+        "detalhes": "Qualquer uma ganha%✓.   Brasil: Seria A. "
       },
       {
-        "titulo": "Maringá VS Atlético Mineiro",
+        "titulo": "Goias VS Avaí",
         "descricao": "Palpite",
-        "detalhes": "Tota de gols da partida: -3gols%✓. Qualquer uma ganha%✓."
+        "detalhes": "Ambas marcam%✓. Qualquer uma ganha%✓.Brasil: Serie A."
       },
       {
-        "titulo": "Burton VS Wigan",
+        "titulo": "Dalian Yingbo VS Beijing Sinobo G.",
         "descricao": "Palpite",
-        "detalhes": "Burton marca 1gol%✓. Qualquer uma ganha%✓.   Inglaterra: League one."
+        "detalhes": "Total de gols da partida: +2gols%✓. Qualquer uma ganha%✓.   China"
       },
       {
-        "titulo": "Solihull Moors VS Rochdale",
+        "titulo": "Wuhan Three T. VS Shanghai Port",
         "descricao": "Palpite",
-        "detalhes": "Rochdale marca 1gols%✓. Qualquer uma ganha%✓.  Inglaterra: Liga nacional"
+        "detalhes": "Total de gols da partida: +2gols%✓. Ambas marcam%✓.  Shanghai Port para victória%✓. China"
+      },
+      {
+        "titulo": "Faça a escolha dos nossos palpites",
+        "descricao": "Tudo é só probabilidades. Nada é 100%.",
+        "detalhes": "Não nos responsabilizaremos pela sua imprudência nas suas escolhas.%✓ Tudo é só entretenimento e diversão. Nada de insentivo aos jogos de azar.%✓ Estamos isentos de tais práticas. O único responsável és tú.%✓ Checa os nossos termos e políticas%✓"
+      }
+    ]
+  },
+      {
+    "liga": "Segunda Feira 05/05/2025",
+    "jogos": [
+      {
+        "titulo": "Henan Jianye  VS Tianjin J.",
+        "descricao": "Palpite",
+        "detalhes": "Henan para victória%✓.   China "
+      },
+      {
+        "titulo": "Qingdao Hainiu  VS Changchun Yatai",
+        "descricao": "Palpite",
+        "detalhes": "Empate%✓.   China."
+      },
+      {
+        "titulo": "Petrojet VS Ceramica Cleopatra",
+        "descricao": "Palpite",
+        "detalhes": "Qualquer uma ganha%✓.   Egipto."
+      },
+      {
+        "titulo": "National Bank of Egypt VS Zamalek",
+        "descricao": "Palpite",
+        "detalhes": "Zamalek para victória%✓"
+      },
+      {
+        "titulo": "Faça a escolha dos nossos palpites",
+        "descricao": "Tudo é só probabilidades. Nada é 100%.",
+        "detalhes": "Não nos responsabilizaremos pela sua imprudência nas suas escolhas.%✓ Tudo é só entretenimento e diversão. Nada de insentivo aos jogos de azar.%✓ Estamos isentos de tais práticas. O único responsável és tú.%✓ Checa os nossos termos e políticas%✓"
+      }
+    ]
+  },
+      {
+    "liga": "Segunda Feira 05/05/2025",
+    "jogos": [
+      {
+        "titulo": "Altrincham VS Tam worth",
+        "descricao": "Palpite",
+        "detalhes": " Total de gols da partida: +2hols%✓ .Qualquer uma ganha%✓.   Inglaterra: Nacional. "
+      },
+      {
+        "titulo": "Sutton United VS Woking",
+        "descricao": "Palpite",
+        "detalhes": "Sutton marca 1gols%✓. Qualquer uma ganha%✓.  Inglaterra: Nacional."
+      },
+      {
+        "titulo": "Maidenhead United VS Boston United",
+        "descricao": "Palpite",
+        "detalhes": "Ambas marcam%✓. Qualquer uma ganha%✓.   Inglaterra: Nacional."
+      },
+      {
+        "titulo": "Solihull Moors VS Dangenham & Redbridge",
+        "descricao": "Palpite",
+        "detalhes": "Ambas marcam%✓.  Inglaterra: Nacional."
       },
       {
         "titulo": "Faça a escolha dos nossos palpites",
